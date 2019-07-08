@@ -1,0 +1,89 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: "Georgia", serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0 15% 0 15%;
+}
+
+button{
+    background-color: rgb(238, 137, 106);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    width: 150px;
+}
+
+p{
+    text-indent: 5%;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+
+}
+
+.main{
+    margin: 2% 15%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row; 
+}
+
+.stack{
+    flex-direction: column;
+}
+
+.navigation{
+    height: 10%;
+    margin: 2% 0 5% 5%;
+}
+
+.half{
+    width: 50%;
+    justify-content: center;
+}
+
+.image{
+    justify-content: flex-start;
+}
+
+.words{
+    margin: 5%;
+}
+
+.maroon{
+    display: flex;
+    background-color: rgb(165, 71, 45);
+    color: white;
+    flex: 1 200px;
+    margin: 2% 5%;
+}
+
+.foot-section{
+    width: 100%;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+#feature{
+    width: 300px;
+    height: 400px;
+    justify-self: flex-start;
+}
